@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-   [SerializeField] CharacterController characterController;
+   [SerializeField] CharacterController controller;
    [SerializeField] Vector3 playerVelocity;
    [SerializeField] bool groundedPlayer;
    [SerializeField] float playerSpeed;
@@ -20,12 +20,55 @@ public class PlayerController : MonoBehaviour
    // Start is called once before the first execution of Update after the MonoBehaviour is created
    void Start()
    {
-
+      playerSpeed = 4;
+      gravityValue = -20;
    }
 
    // Update is called once per frame
    void Update()
    {
+      groundedPlayer = controller.isGrounded;
+
+      if (groundedPlayer && playerVelocity.y < 0)
+      {
+         playerVelocity.y = 0f;
+      }
+
+      transform.Rotate(0, Input.GetAxis("Horizontal") * rotateSpeed, 0);
+      Vector3 forward = transform.TransformDirection(Vector3.forward);
+      float curSpeed = speed * Input.GetAxis("Vertical");
+      controller.SimpleMove(forward * curSpeed);
+      
+      if(Input.GetButton("Jump") && groundedPlayer)
+      {
+         isJumping = true;
+         activeCharacter.GetComponent<Animator>().Play("Jump");
+         playerVelocity.y += 10;
+      }
+
+      playerVelocity.y += gravityValue * Time.deltaTime;
+      controller.Move(playerVelocity * Time.deltaTime);
+
+      if(Input.GetKey(KeyCode.W) || 
+         Input.GetKey(KeyCode.S) || 
+         Input.GetKey(KeyCode.A) || 
+         Input.GetKey(KeyCode.D))
+      {
+         this.gameObject.GetComponent<CharacterController>().minMoveDistance = 0.001f;
+         if(isJumping == false)
+         {
+            activeCharacter.GetComponent<Animator>().Play("Standard Run");
+         }
+      }
+      else
+      {
+         this.gameObject.GetComponent<CharacterController>().minMoveDistance = 0.901f;
+         if (isJumping == false)
+         {
+            activeCharacter.GetComponent<Animator>().Play("Idle");
+         }
+      }
+
 
    }
 }
