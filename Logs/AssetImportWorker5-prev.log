@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.11f1 (b0a1d6caadd2) revision 11575766'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-EdiUhiC3q8Hvr7EisXUWI" at "2026-07-10T15:19:59.6197256Z"
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 65303 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-EdiUhiC3q8Hvr7EisXUWI" at "2026-07-10T15:24:23.9184141Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-07-10T15:19:59Z
+Date: 2026-07-10T15:24:23Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.11f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/Dropbox/My Games/CV Games/Unity - JDE Game Creator 2 Tutorial/HOW TO MAKE A 3
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-63035
+50894
 -licensingIpc
 LicenseClient-EdiUhiC3q8Hvr7EisXUWI
 -force-d3d12
@@ -68,14 +68,14 @@ D:/Dropbox/My Games/CV Games/Unity - JDE Game Creator 2 Tutorial/HOW TO MAKE A 3
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [41552]  Target information:
+Player connection [50500]  Target information:
 
-Player connection [41552]  * "[IP] 192.168.100.112 [Port] 0 [Flags] 2 [Guid] 859702943 [EditorId] 859702943 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3RH7DG3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [50500]  * "[IP] 192.168.100.112 [Port] 0 [Flags] 2 [Guid] 3080603765 [EditorId] 3080603765 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3RH7DG3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [41552]  * "[IP] 100.115.184.97 [Port] 0 [Flags] 2 [Guid] 859702943 [EditorId] 859702943 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3RH7DG3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [50500]  * "[IP] 100.115.184.97 [Port] 0 [Flags] 2 [Guid] 3080603765 [EditorId] 3080603765 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3RH7DG3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [41552] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [41552] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [50500] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [50500] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 13
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -87,6 +87,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.72 ms, found 4 plugins.
 Initialize engine version: 6000.4.11f1 (b0a1d6caadd2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Dropbox/My Games/CV Games/Unity - JDE Game Creator 2 Tutorial/HOW TO MAKE A 3D PLATFORM GAME IN UNITY 6/Assets
@@ -104,12 +105,12 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002144 seconds.
+Registered in 0.002595 seconds.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -117,43 +118,43 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.278 seconds
-Domain Reload Profiling: 597ms
-	BeginReloadAssembly (95ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (143ms)
-		LoadAssemblies (92ms)
-		AnalyzeDomain (137ms)
-			TypeCache.Refresh (136ms)
-				TypeCache.ScanAssembly (128ms)
-	FinalizeReload (279ms)
+- Finished resetting the current domain, in  0.353 seconds
+Domain Reload Profiling: 784ms
+	BeginReloadAssembly (132ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (127ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (169ms)
+	FinalizeReload (354ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (83ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-EdiUhiC3q8Hvr7EisXUWI"
 [Licensing::IpcConnector] LicenseClient-EdiUhiC3q8Hvr7EisXUWI channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-claud-6000.4.11" at "2026-07-10T15:20:01.1826056Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 29948, path: "C:/Program Files/Unity/Hub/Editor/6000.4.11f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-claud-6000.4.11" at "2026-07-10T15:24:25.9022435Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 27040, path: "C:/Program Files/Unity/Hub/Editor/6000.4.11f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              9ab358ffd8d44d64b1a19b3be5319e8a
-  Correlation Id:          a34b39c53681fec147bcf5e7dccc0ab9
-  External correlation Id: 3997967552999329954
+  Session Id:              c83727573bdc4ab981b621a6924dbb2d
+  Correlation Id:          9b01e70050789f8b8398482dc270b493
+  External correlation Id: 1265948468272096366
   Machine Id:              kzfTi9GTeVg1mRtD0cFlIcOoMuU=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-claud-6000.4.11" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-claud-6000.4.11-notifications" at "2026-07-10T15:20:01.1900572Z"
-[Licensing::Module] Licensing Background thread has ended after 1.57s
-========================================================================
-Worker process is ready to serve import requests
-Import Worker Mode flag is 0x00
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-claud-6000.4.11-notifications" at "2026-07-10T15:24:25.9121032Z"
+[Licensing::Module] Licensing Background thread has ended after 1.99s
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -214,36 +215,107 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.560 seconds
-Domain Reload Profiling: 1015ms
-	BeginReloadAssembly (115ms)
+- Finished resetting the current domain, in  0.662 seconds
+Domain Reload Profiling: 1234ms
+	BeginReloadAssembly (142ms)
 		DisableScriptedObjects (3ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (265ms)
-		LoadAssemblies (153ms)
-		AnalyzeDomain (172ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (103ms)
-			BuildScriptInfoCaches (52ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (560ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (194ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (131ms)
+			BuildScriptInfoCaches (66ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (663ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (294ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (5ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6576 unused Assets / (4.6 MB). Loaded Objects now: 7400.
-Memory consumption went from 163.8 MB to 159.2 MB.
-Total: 7.628400 ms (FindLiveObjects: 0.722400 ms CreateObjectMapping: 0.302700 ms MarkObjects: 4.644400 ms  DeleteObjects: 1.957400 ms)
+Unloading 6576 unused Assets / (5.2 MB). Loaded Objects now: 7400.
+Memory consumption went from 160.1 MB to 154.9 MB.
+Total: 5.602000 ms (FindLiveObjects: 0.362600 ms CreateObjectMapping: 0.222200 ms MarkObjects: 3.696800 ms  DeleteObjects: 1.318600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 855388.660154 seconds.
+  path: Assets/Starfield Skybox/Skybox.mat
+  importAddress: Guid(81f714daf7144784b8a2f42f1cd30927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox/Skybox.mat using Guid(81f714daf7144784b8a2f42f1cd30927) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '023115bf8c180ba3bda5cd4f7f545d9d') in 0.7530546 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca8745052a4f5c7632b09192f1cf8cef DependenciesID=06fe6d1a30e819e02f098519e7717675 StaticDependenciesID=ecdc34ef70d1526b767e85b6ef88006a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf
+  importAddress: Guid(f4eec857a4fdf2f43be0e9f3d1a984e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Unity.ttf using Guid(f4eec857a4fdf2f43be0e9f3d1a984e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5d5de308531a1ce8b5022ae118436a9d') in 0.0370913 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=38d151f1168295f05a7cff734985aad3 DependenciesID=b26ac12a341071bc2553b301ad9a90ed StaticDependenciesID=23b8b71f9e79757961524056b6b22050 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
+  importAddress: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '539dff7d7fd9a6074922ebde5b54bd44') in 0.0489131 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=339de78c101b8a46a812b29fd0133153 DependenciesID=c678847485a2d157e30dbab39dbc97c4 StaticDependenciesID=4acf1557437524a57033d3d021b50128 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+  importAddress: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '246b79f4b15848270edbfec38032d06c') in 0.0206612 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=365daae1deaaac8a4ee6c28504795ebd DependenciesID=e3b92ae5119bcd70c1aaed7de7754679 StaticDependenciesID=8074fcb08538e3316c20ba2755f2b733 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  importAddress: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2a382fb2a53b88aefdab897c1d0d9b5f') in 0.0096848 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a8051881cc14798d93de1df6123e656 DependenciesID=d3fa04aa1478450ebf81794003f27e30 StaticDependenciesID=2b4d6d94bff6314658a33c4d23a13be2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  importAddress: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e4c7f5b4275d5e64a4cf0771c6bf3e9d') in 0.0118724 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3deaf455ee0f4e6e97344def773e9c51 DependenciesID=746064ff3595359062a728ae7233b4ff StaticDependenciesID=508cf2ac10fcc4f41bcfb4874614093d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  importAddress: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '09271f7afe36bd7b655c35cdb08f6845') in 0.0076916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=33e0f998f79b142ff254050f49da33b4 DependenciesID=d9287d190e42e2be2012602ff937f57a StaticDependenciesID=64a644d1d7bef1e78add0c5a9e12c423 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Bloom.mat
+  importAddress: Guid(8d176c01131de8f46ad61094e29d79b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Unity SDF - HDRP LIT - Bloom.mat using Guid(8d176c01131de8f46ad61094e29d79b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '020ae089b8b47e271a84ac984bc099d2') in 0.02236 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c1dc1ab2662ec3d40ae4cf74b0e7f09e DependenciesID=f033613f586b62a02aea9b5dbde1421b StaticDependenciesID=4d0a8677dcb1c8f09b2ce634607e9970 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  importAddress: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6c0e9534e666a8d8b2b6ccaa2047f70a') in 0.0429067 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5bfc142c3d85e37f2ee82a75b1e5b50c DependenciesID=2941c6771f55ddad6a1d9d533eda4bee StaticDependenciesID=63dd7caf92db78e5273808d90eda894f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
