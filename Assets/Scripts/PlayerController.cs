@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -13,7 +14,7 @@ public class PlayerController : MonoBehaviour
    [SerializeField] float moveHorizontal;
    [SerializeField] float moveVertical;
    [SerializeField] float speed = 4;
-   [SerializeField] float rotateSpeed = 4;
+   [SerializeField] float rotateSpeed = .1f;
    [SerializeField] float jumpHight = 1.2f;
    [SerializeField] bool isJumping;
 
@@ -39,11 +40,12 @@ public class PlayerController : MonoBehaviour
       float curSpeed = speed * Input.GetAxis("Vertical");
       controller.SimpleMove(forward * curSpeed);
       
-      if(Input.GetButton("Jump") && groundedPlayer)
+      if(Input.GetKey(KeyCode.Space) && groundedPlayer)
       {
          isJumping = true;
          activeCharacter.GetComponent<Animator>().Play("Jump");
          playerVelocity.y += 10;
+         StartCoroutine(ResetJump());
       }
 
       playerVelocity.y += gravityValue * Time.deltaTime;
@@ -68,7 +70,12 @@ public class PlayerController : MonoBehaviour
             activeCharacter.GetComponent<Animator>().Play("Idle");
          }
       }
-
-
    }
+
+   IEnumerator ResetJump()
+   {
+      yield return new WaitForSeconds(0.9f);
+      isJumping = false;
+   }
+
 }
