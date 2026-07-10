@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 66
+  controlID: 138
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 505
     height: 1293
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -121,8 +121,8 @@ MonoBehaviour:
     y: 0
     width: 299
     height: 855
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -299,8 +299,8 @@ MonoBehaviour:
     y: 0
     width: 989
     height: 855
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -752,7 +752,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Audio
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -762,7 +762,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Audio
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Dropbox\My Games\CV Games\Unity - JDE Game Creator 2 Tutorial\HOW
     TO MAKE A 3D PLATFORM GAME IN UNITY 6
@@ -772,16 +772,16 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 49780
+    - m_Data: 49802
     m_LastClickedID:
-      m_Data: 49780
+      m_Data: 49802
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49642
-    - m_Data: 49644
-    - m_Data: 49646
-    - m_Data: 49648
-    - m_Data: 49650
+    - m_Data: 49658
+    - m_Data: 49660
+    - m_Data: 49662
+    - m_Data: 49664
+    - m_Data: 49666
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -816,11 +816,11 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49642
-    - m_Data: 49644
-    - m_Data: 49646
-    - m_Data: 49648
-    - m_Data: 49650
+    - m_Data: 49658
+    - m_Data: 49660
+    - m_Data: 49662
+    - m_Data: 49664
+    - m_Data: 49666
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -983,10 +983,7 @@ MonoBehaviour:
         m_Data: 0
       m_ExpandedIDs:
       - m_Data: -1362
-      - m_Data: 48546
-      - m_Data: 48690
-      - m_Data: 48694
-      - m_Data: 48778
+      - m_Data: 48572
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1608,9 +1605,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 2.6982286, y: 1.2609997, z: -2.3209403}
+    m_Target: {x: -0.19000006, y: 0.1500001, z: 0.01999998}
     speed: 2
-    m_Value: {x: 2.6982286, y: 1.2609997, z: -2.3209403}
+    m_Value: {x: -0.19000006, y: 0.1500001, z: 0.01999998}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1657,13 +1654,13 @@ MonoBehaviour:
     m_gridOpacity: 0.5
     m_NearestPlaneToHandleMode: 0
   m_Rotation:
-    m_Target: {x: 0.0044999854, y: 0.001500037, z: -0.0000067479627, w: 0.9999898}
+    m_Target: {x: 0.016246706, y: 0.5528437, z: -0.010781824, w: 0.8330585}
     speed: 2
-    m_Value: {x: 0.0044999807, y: 0.0015000354, z: -0.0000067479555, w: 0.99998873}
+    m_Value: {x: 0.016246686, y: 0.552843, z: -0.01078181, w: 0.8330574}
   m_Size:
-    m_Target: 2.5286744
+    m_Target: 3.6622365
     speed: 2
-    m_Value: 2.5286744
+    m_Value: 3.6622365
   m_Ortho:
     m_Target: 0
     speed: 2

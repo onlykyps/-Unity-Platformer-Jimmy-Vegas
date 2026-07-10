@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Dropbox\\My Games\\CV Games\\Unity - JDE Game Creator 2 Tutorial\\HOW TO MAKE A 3D PLATFORM GAME IN UNITY 6\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\dropbox\\my games\\cv games\\unity - jde game creator 2 tutorial\\how to make a 3d platform game in unity 6\\assets\\scripts\\skyboxrotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\skyboxrotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\dropbox\\my games\\cv games\\unity - jde game creator 2 tutorial\\how to make a 3d platform game in unity 6\\assets\\scripts\\timelevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timelevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SkyBoxRotate.cs",
+              "DocumentMoniker": "D:\\Dropbox\\My Games\\CV Games\\Unity - JDE Game Creator 2 Tutorial\\HOW TO MAKE A 3D PLATFORM GAME IN UNITY 6\\Assets\\Scripts\\SkyBoxRotate.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SkyBoxRotate.cs",
+              "ToolTip": "D:\\Dropbox\\My Games\\CV Games\\Unity - JDE Game Creator 2 Tutorial\\HOW TO MAKE A 3D PLATFORM GAME IN UNITY 6\\Assets\\Scripts\\SkyBoxRotate.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SkyBoxRotate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T15:31:41.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TimeLevel.cs",
               "DocumentMoniker": "D:\\Dropbox\\My Games\\CV Games\\Unity - JDE Game Creator 2 Tutorial\\HOW TO MAKE A 3D PLATFORM GAME IN UNITY 6\\Assets\\Scripts\\TimeLevel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TimeLevel.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FallOff.cs",
               "DocumentMoniker": "D:\\Dropbox\\My Games\\CV Games\\Unity - JDE Game Creator 2 Tutorial\\HOW TO MAKE A 3D PLATFORM GAME IN UNITY 6\\Assets\\Scripts\\FallOff.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FallOff.cs",
@@ -63,12 +80,11 @@
               "RelativeToolTip": "Assets\\Scripts\\FallOff.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T14:32:37.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T14:32:37.678Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LevelFinish.cs",
               "DocumentMoniker": "D:\\Dropbox\\My Games\\CV Games\\Unity - JDE Game Creator 2 Tutorial\\HOW TO MAKE A 3D PLATFORM GAME IN UNITY 6\\Assets\\Scripts\\LevelFinish.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelFinish.cs",
@@ -76,12 +92,11 @@
               "RelativeToolTip": "Assets\\Scripts\\LevelFinish.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T13:41:33.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T13:41:33.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RespawnLevel.cs",
               "DocumentMoniker": "D:\\Dropbox\\My Games\\CV Games\\Unity - JDE Game Creator 2 Tutorial\\HOW TO MAKE A 3D PLATFORM GAME IN UNITY 6\\Assets\\Scripts\\RespawnLevel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RespawnLevel.cs",
@@ -89,12 +104,11 @@
               "RelativeToolTip": "Assets\\Scripts\\RespawnLevel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T13:21:46.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T13:21:46.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ScoreControl.cs",
               "DocumentMoniker": "D:\\Dropbox\\My Games\\CV Games\\Unity - JDE Game Creator 2 Tutorial\\HOW TO MAKE A 3D PLATFORM GAME IN UNITY 6\\Assets\\Scripts\\ScoreControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreControl.cs",
@@ -102,12 +116,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ScoreControl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T13:06:44.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T13:06:44.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GemControl.cs",
               "DocumentMoniker": "D:\\Dropbox\\My Games\\CV Games\\Unity - JDE Game Creator 2 Tutorial\\HOW TO MAKE A 3D PLATFORM GAME IN UNITY 6\\Assets\\Scripts\\GemControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GemControl.cs",
@@ -115,12 +128,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GemControl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T12:02:03.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T12:02:03.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Dropbox\\My Games\\CV Games\\Unity - JDE Game Creator 2 Tutorial\\HOW TO MAKE A 3D PLATFORM GAME IN UNITY 6\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -128,8 +140,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAE4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T16:37:23.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T16:37:23.997Z"
             }
           ]
         }
