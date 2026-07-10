@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.11f1 (b0a1d6caadd2) revision 11575766'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-EdiUhiC3q8Hvr7EisXUWI" at "2026-07-10T15:24:23.9587864Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-EdiUhiC3q8Hvr7EisXUWI" at "2026-07-10T16:03:16.6207434Z"
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 65303 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-07-10T15:24:23Z
+Date: 2026-07-10T16:03:16Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.11f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/Dropbox/My Games/CV Games/Unity - JDE Game Creator 2 Tutorial/HOW TO MAKE A 3
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-50894
+64631
 -licensingIpc
 LicenseClient-EdiUhiC3q8Hvr7EisXUWI
 -force-d3d12
@@ -68,14 +68,14 @@ D:/Dropbox/My Games/CV Games/Unity - JDE Game Creator 2 Tutorial/HOW TO MAKE A 3
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [39820]  Target information:
+Player connection [55812]  Target information:
 
-Player connection [39820]  * "[IP] 192.168.100.112 [Port] 0 [Flags] 2 [Guid] 3688216741 [EditorId] 3688216741 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3RH7DG3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [55812]  * "[IP] 192.168.100.112 [Port] 0 [Flags] 2 [Guid] 2033215434 [EditorId] 2033215434 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3RH7DG3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [39820]  * "[IP] 100.115.184.97 [Port] 0 [Flags] 2 [Guid] 3688216741 [EditorId] 3688216741 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3RH7DG3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [55812]  * "[IP] 100.115.184.97 [Port] 0 [Flags] 2 [Guid] 2033215434 [EditorId] 2033215434 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3RH7DG3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [39820] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [39820] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [55812] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [55812] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 13
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -104,12 +104,12 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002211 seconds.
+Registered in 0.001089 seconds.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -117,46 +117,44 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.363 seconds
-Domain Reload Profiling: 789ms
-	BeginReloadAssembly (116ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (191ms)
-		LoadAssemblies (112ms)
-		AnalyzeDomain (183ms)
-			TypeCache.Refresh (183ms)
-				TypeCache.ScanAssembly (170ms)
-	FinalizeReload (364ms)
+- Finished resetting the current domain, in  0.288 seconds
+Domain Reload Profiling: 604ms
+	BeginReloadAssembly (92ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (89ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (123ms)
+	FinalizeReload (289ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (102ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
-Begin MonoManager ReloadAssembly
-[Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-EdiUhiC3q8Hvr7EisXUWI"
 [Licensing::IpcConnector] LicenseClient-EdiUhiC3q8Hvr7EisXUWI channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-claud-6000.4.11" at "2026-07-10T15:24:25.9766771Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 27040, path: "C:/Program Files/Unity/Hub/Editor/6000.4.11f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-claud-6000.4.11" at "2026-07-10T16:03:18.2121668Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 57724, path: "C:/Program Files/Unity/Hub/Editor/6000.4.11f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              d58c9723f1504989bb53a3f58798a869
-  Correlation Id:          9b01e70050789f8b8398482dc270b493
-  External correlation Id: 4304946311270556259
+  Session Id:              fa438ac0d9484a9b899bd22e2e7c84ff
+  Correlation Id:          bb8162cc115f1ae9b1d69bc0a5a6a81c
+  External correlation Id: 835689798035190401
   Machine Id:              kzfTi9GTeVg1mRtD0cFlIcOoMuU=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-claud-6000.4.11" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-claud-6000.4.11-notifications" at "2026-07-10T15:24:25.9848111Z"
-[Licensing::Module] Licensing Background thread has ended after 2.03s
-[Licensing::Module] Licensing is initialized (took 0.09s).
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-claud-6000.4.11-notifications" at "2026-07-10T16:03:18.2197606Z"
+[Licensing::Module] Licensing Background thread has ended after 1.60s
+Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-4GRW-759Y-29KW-UEHM-XXXX
@@ -216,65 +214,33 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.659 seconds
-Domain Reload Profiling: 1303ms
-	BeginReloadAssembly (227ms)
-		DisableScriptedObjects (3ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (319ms)
-		LoadAssemblies (180ms)
-		AnalyzeDomain (208ms)
-			TypeCache.Refresh (137ms)
-				TypeCache.ScanAssembly (125ms)
-			BuildScriptInfoCaches (63ms)
+- Finished resetting the current domain, in  0.542 seconds
+Domain Reload Profiling: 1003ms
+	BeginReloadAssembly (116ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (269ms)
+		LoadAssemblies (155ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (106ms)
+			BuildScriptInfoCaches (52ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (659ms)
+	FinalizeReload (542ms)
 		SetupLoadedEditorAssemblies (0ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (329ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
-			AfterProcessingInitializeOnLoad (5ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6576 unused Assets / (4.9 MB). Loaded Objects now: 7400.
-Memory consumption went from 161.8 MB to 156.9 MB.
-Total: 4.849800 ms (FindLiveObjects: 0.369800 ms CreateObjectMapping: 0.203100 ms MarkObjects: 3.018500 ms  DeleteObjects: 1.256700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 855388.691962 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
-  importAddress: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b8018992ffa451fabf5f9575e02ade8c') in 0.4200298 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7e54bdb6ae1ca659448adb5ef30a4e8 DependenciesID=eb05ae0885029dc31d8a80902e675d25 StaticDependenciesID=0c2e0c65092d1b2eeff5a0aaf7eefdc7 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
-  importAddress: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4713d59b3bde657e03a6867e849f53dc') in 0.0547939 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c92afc72ca42b8a7d28cd3a77c8be810 DependenciesID=b637320becfe2694905ff72cd7ba7102 StaticDependenciesID=a62ba8cdfd48a999ef328d3881fdbf30 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  importAddress: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1f7d3bd321f662ad1b9ab15a32c60d0c') in 0.0218374 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b833b26bc747ca78b9b9f9bccb24cf7e DependenciesID=16b9c965d66e4e18f36b727c829bde48 StaticDependenciesID=d8c3f50a3cf4ae6c7b1c4dffb6cef788 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat
-  importAddress: Guid(3b5cc91c3bf8cf74391252247f52fb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - URP.mat using Guid(3b5cc91c3bf8cf74391252247f52fb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8f4b84dc1299a9cca3311d1178825407') in 2.0347355 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4181bee0b1bf544abd4c3f4b382deac4 DependenciesID=0935f7db6aa6b4b8ca12b08a996f4770 StaticDependenciesID=cdf6e458c42e2af235baa43bf8b8b891 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+Unloading 6577 unused Assets / (4.8 MB). Loaded Objects now: 7402.
+Memory consumption went from 162.1 MB to 157.4 MB.
+Total: 4.678800 ms (FindLiveObjects: 0.364100 ms CreateObjectMapping: 0.218800 ms MarkObjects: 2.936100 ms  DeleteObjects: 1.158400 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

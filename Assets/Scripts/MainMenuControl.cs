@@ -1,23 +1,40 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MainMenuControl : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+   [SerializeField] AudioSource buttonPress;
+   [SerializeField] GameObject fadeOut;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+   // Start is called once before the first execution of Update after the MonoBehaviour is created
+   void Start()
+   {
+
+   }
+
+   // Update is called once per frame
+   void Update()
+   {
+
+   }
 
    public void StartGame()
    {
-      SceneManager.LoadScene(4);
+      buttonPress.Play();
+      fadeOut.SetActive(true);
+      StartCoroutine(PlayTheGame());
+   }
 
+   public void QuitGame()
+   {
+      Application.Quit();
+   }
+
+   IEnumerator PlayTheGame()
+   {
+      yield return new WaitForSeconds(2);
+      SceneManager.LoadScene(4);
    }
 }
