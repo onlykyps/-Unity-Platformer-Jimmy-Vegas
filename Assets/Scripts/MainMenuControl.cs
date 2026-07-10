@@ -24,6 +24,9 @@ public class MainMenuControl : MonoBehaviour
    {
       buttonPress.Play();
       fadeOut.SetActive(true);
+
+      LevelMaintain.levelNumber = 4;
+
       StartCoroutine(PlayTheGame());
    }
 

@@ -7,7 +7,7 @@ public class RespawnLevel : MonoBehaviour
    void Start()
    {
       ScoreControl.totalScore = 0;
-      SceneManager.LoadScene(4);
+      SceneManager.LoadScene(LevelMaintain.levelNumber);
    }
 
    // Update is called once per frame

@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 123
+  controlID: 49
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimationWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -147,15 +147,15 @@ MonoBehaviour:
     y: 855
     width: 2055
     height: 438
-  m_MinSize: {x: 51, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 13}
+  m_MinSize: {x: 231, y: 276}
+  m_MaxSize: {x: 10001, y: 10026}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 21}
   - {fileID: 13}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 49
+  controlID: 50
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 56}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 50
+  controlID: 51
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -348,7 +348,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID:
-    m_Data: -18592
+    m_Data: 49076
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -752,7 +752,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -762,7 +762,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Animations
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Dropbox\My Games\CV Games\Unity - JDE Game Creator 2 Tutorial\HOW
     TO MAKE A 3D PLATFORM GAME IN UNITY 6
@@ -772,17 +772,17 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 48974
+    - m_Data: 49058
     m_LastClickedID:
-      m_Data: 48974
+      m_Data: 49058
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 48870
-    - m_Data: 48872
-    - m_Data: 48874
-    - m_Data: 48876
-    - m_Data: 48878
-    - m_Data: 48976
+    - m_Data: 48932
+    - m_Data: 48934
+    - m_Data: 48936
+    - m_Data: 48938
+    - m_Data: 48940
+    - m_Data: 48942
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -817,11 +817,12 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 48870
-    - m_Data: 48872
-    - m_Data: 48874
-    - m_Data: 48876
-    - m_Data: 48878
+    - m_Data: 48932
+    - m_Data: 48934
+    - m_Data: 48936
+    - m_Data: 48938
+    - m_Data: 48940
+    - m_Data: 48942
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -850,17 +851,17 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: -18592
+    - m_Data: 49076
     m_LastClickedEntityId:
-      m_Data: -18592
-    m_HadKeyboardFocusLastEvent: 0
+      m_Data: 49076
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 53260
     - m_Data: 52720
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: SplashScreen
+      m_OriginalName: SplashScreen
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -868,10 +869,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 0
+        m_Data: 49080
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 6}
@@ -981,17 +982,23 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: -18592
+      - m_Data: 49076
       m_LastClickedID:
-        m_Data: -18592
+        m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -7724
-      - m_Data: -6044
-      - m_Data: -4794
+      - m_Data: -26894
+      - m_Data: -26682
+      - m_Data: -26530
+      - m_Data: -22740
+      - m_Data: -21552
+      - m_Data: -19598
+      - m_Data: -18832
+      - m_Data: -18532
+      - m_Data: -17216
+      - m_Data: -2302
       - m_Data: -1362
-      - m_Data: 48512
-      - m_Data: 50670
-      - m_Data: 51040
+      - m_Data: 49250
+      - m_Data: 49408
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1613,9 +1620,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 382.5, y: 404, z: 0}
+    m_Target: {x: 2.2450502, y: -0.3453501, z: 5.033218}
     speed: 2
-    m_Value: {x: 382.5, y: 404, z: 0}
+    m_Value: {x: 2.2450502, y: -0.3453501, z: 5.033218}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1662,13 +1669,13 @@ MonoBehaviour:
     m_gridOpacity: 0.5
     m_NearestPlaneToHandleMode: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.7027172, y: -0.013870182, z: 0.0137047535, w: 0.7112013}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.70271754, y: -0.01387019, z: 0.013704761, w: 0.71120167}
   m_Size:
-    m_Target: 315.38266
+    m_Target: 16.533258
     speed: 2
-    m_Value: 315.38266
+    m_Value: 16.533258
   m_Ortho:
     m_Target: 0
     speed: 2

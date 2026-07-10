@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelFinish : MonoBehaviour
 {
@@ -14,6 +16,8 @@ public class LevelFinish : MonoBehaviour
       levelBGM.SetActive(false);
       levelJingle.Play();
       fadeOut.SetActive(true);
+      LevelMaintain.levelNumber += 1;
+      StartCoroutine(ToNextLevel());
    }
 
    // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -27,4 +31,11 @@ public class LevelFinish : MonoBehaviour
    //{
 
    //}
+
+   IEnumerator ToNextLevel()
+   {
+      yield return new WaitForSeconds(2);
+      
+      SceneManager.LoadScene(LevelMaintain.levelNumber);
+   }
 }
