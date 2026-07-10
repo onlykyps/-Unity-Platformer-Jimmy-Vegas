@@ -10,7 +10,7 @@ public class GemControl : MonoBehaviour
 
    [SerializeField] float rotateSpeed = 0.2f;
    [SerializeField] AudioSource gemCollect;
-
+   [SerializeField] int gemScore = 100;
 
    // Update is called once per frame
    void Update()
@@ -20,7 +20,9 @@ public class GemControl : MonoBehaviour
 
    void OnTriggerEnter(Collider other)
    {
+      ScoreControl.totalScore += gemScore;
       gemCollect.Play();
-      Destroy(gemCollect);
+      Destroy(gameObject);
+      
    }
 }
